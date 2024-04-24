@@ -72,6 +72,7 @@ Wrapper.right = styled.div`
 `;
 Wrapper.hero = styled.div`
   width: 80%;
+  height: 450px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -105,23 +106,42 @@ Wrapper.hero.left.item.descript = styled.h2`
   padding: 5px 0px 44px 3px;
 `;
 Wrapper.hero.right = styled.div`
-  display: flex;
   width: 50%;
-  position: relative;
-
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  /* position: relative; */
+`;
+Wrapper.hero.right.pics = styled.div`
+  /* position: relative; */
   img {
     width: 518px;
     height: 518px;
     left: 813px;
     top: 42px;
+    /* position: absolute; */
   }
+
   .sideImg {
     width: 135px;
     height: 135px;
     left: 50px;
     top: 345px;
-    position: absolute;
+    /* position: absolute; */
   }
 `;
 
 export { Wrapper };
+
+// New try
+// import styled from "styled-components";
+
+// const Wrapper = styled.div`
+//   align-items: center;
+//   justify-content: center;
+//   margin: auto;
+//   width: 500px;
+// `;
+
+// export { Wrapper };
