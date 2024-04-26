@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -70,78 +70,17 @@ Wrapper.right = styled.div`
     font-size: 20px;
   }
 `;
-Wrapper.hero = styled.div`
+Wrapper.CarouselWrapper = styled.div`
+  background: linear-gradient(
+    97.77deg,
+    rgba(245, 245, 245, 0.5) -23.46%,
+    rgba(245, 245, 245, 0.5) 107.51%
+  );
   width: 80%;
   height: 450px;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
-  background-color: rgba(245, 245, 245, 0.5);
   margin-top: 12px;
 `;
-Wrapper.hero.left = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  padding-top: 68px;
-  padding-left: 43px;
-`;
-Wrapper.hero.left.item = styled.h2`
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  color: rgba(61, 61, 61, 1);
-`;
-Wrapper.hero.left.item.green = styled.h2`
-  text-transform: uppercase;
-  font-size: 50px;
-  font-weight: 900;
-  color: rgba(61, 61, 61, 1);
-`;
-Wrapper.hero.left.item.descript = styled.h2`
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: rgba(114, 114, 114, 1);
-  padding: 5px 0px 44px 3px;
-`;
-Wrapper.hero.right = styled.div`
-  width: 50%;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  margin: auto;
-  /* position: relative; */
-`;
-Wrapper.hero.right.pics = styled.div`
-  /* position: relative; */
-  img {
-    width: 518px;
-    height: 518px;
-    left: 813px;
-    top: 42px;
-    /* position: absolute; */
-  }
 
-  .sideImg {
-    width: 135px;
-    height: 135px;
-    left: 50px;
-    top: 345px;
-    /* position: absolute; */
-  }
-`;
 
 export { Wrapper };
-
-// New try
-// import styled from "styled-components";
-
-// const Wrapper = styled.div`
-//   align-items: center;
-//   justify-content: center;
-//   margin: auto;
-//   width: 500px;
-// `;
-
-// export { Wrapper };

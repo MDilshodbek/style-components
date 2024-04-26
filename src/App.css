@@ -10,10 +10,10 @@
   background-color: rgba(70, 163, 88, 1);
 }
 
-/* .sideImg {
-  width: 135px;
-  height: 135px;
-  left: 868px;
-  top: 388px;
-  position: absolute;
-} */
+.slick-dots li button {
+  background-color: #46a358 !important;
+  opacity: 30%;
+}
+.slick-active button {
+  background-color: #46a358 !important;
+}
